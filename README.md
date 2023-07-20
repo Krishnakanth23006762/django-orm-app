@@ -5,17 +5,21 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram
 
-Include your ER diagram here
+### ER Diagram:
+![ERDIAGRAM](ERDIAGRAM.jpg)
 
 ## DESIGN STEPS
 
-### STEP 1:
+### STEP 1: Create folder 'ex02' under the directory 'unit2'
 
-### STEP 2:
+### STEP 2: Clone the Github repository into the directory 'ex02' using the command "git clone <url>"
 
-### STEP 3:
+### STEP 3: Under the folder "django-orm-app", enter the directory titled "dataproject" and go to the file settings.py
 
-Write your own steps
+### STEP 4: Return to the parent folder "dataproject" and install the application myapp using the second command "python3 manage.py startapp myapp"
+
+### STEP 5: Under the directory "myapp" open "models.py"
+
 
 ## PROGRAM
 ### models.py:
@@ -45,10 +49,10 @@ admin.site.register(Student,StudentAdmin)
 ## OUTPUT
 
 ### Student List:
-![Studentlist](Djanoormapplication.pdf)
+![Studentlist](student.PNG)
 
 ### error file:
-![error](errorfile.pdf)
+![error](error.PNG)
 
 
 ## RESULT
